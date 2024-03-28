@@ -1,0 +1,25 @@
+.siderowOption {
+    display: flex ;
+    align-items: center;
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+}
+
+.siderowOption:hover {
+    color: #fff;
+}
+.siderowOption__icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.siderowOption > p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.playlist__img{
+background-color: red;
+width: 20px;
+}

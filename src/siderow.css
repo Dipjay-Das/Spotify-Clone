@@ -1,0 +1,32 @@
+.siderow {
+    height: 100vh;
+    color: #fff;
+    flex: 0.2;
+    min-width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #000;
+}
+
+.siderow_logo {
+    margin-right: auto;
+    height: 70px;
+    padding: 10px;
+}
+
+.siderow__title {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px
+}
+
+.siderow>hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
+.siderow__footer{
+    width: 100%;
+    height: 65vh;
+    overflow-y: scroll;
+} 

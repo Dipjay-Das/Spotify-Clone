@@ -1,0 +1,22 @@
+.playlist {
+    display: flex;
+    align-items: center;
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+    margin: 17px 0;
+}
+
+.playlist:hover {
+    color: #fff;
+}
+
+.playlist>img {
+    /* width: 20px; */
+    height: 45px;
+}
+
+.playlist>p {
+    margin-left: 15px;
+}
